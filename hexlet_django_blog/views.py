@@ -6,7 +6,7 @@ def index(request):
         request,
         "index.html",
         context={
-            "Who": "World",
+            "who": "hexlet-djanjo-blog",
         },
     )
 
